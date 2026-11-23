@@ -1,0 +1,46 @@
+<svg viewBox="0 0 680 400" width="100%" role="img">
+<title>刷题没思路时的决策流程</title>
+<desc>从读题到复盘的完整刷题决策流程</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<text x="40" y="28" font-size="14" font-weight="500" fill="#E8E6DF">一道题的正确打开方式</text>
+<g class="node c-blue">
+<rect x="40" y="48" width="180" height="44" rx="8" fill="#042C53" stroke="#85B7EB" stroke-width="0.5"/>
+<text class="th" x="130" y="70" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4" font-size="12">读题+限时想 20min</text>
+</g>
+<path d="M220 70 L256 70" stroke="#85B7EB" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+<g class="node c-amber">
+<rect x="260" y="48" width="160" height="44" rx="8" fill="#412402" stroke="#EF9F27" stroke-width="0.5"/>
+<text class="th" x="340" y="70" text-anchor="middle" dominant-baseline="central" fill="#FAC775" font-size="12">有思路吗？</text>
+</g>
+<path d="M420 62 L460 62" stroke="#5DCAA5" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+<text x="440" y="54" font-size="11" fill="#5DCAA5" text-anchor="middle">有</text>
+<g class="node c-teal">
+<rect x="464" y="48" width="176" height="44" rx="8" fill="#04342C" stroke="#5DCAA5" stroke-width="0.5"/>
+<text class="th" x="552" y="70" text-anchor="middle" dominant-baseline="central" fill="#9FE1CB" font-size="12">自己写代码 AC</text>
+</g>
+<path d="M340 92 L340 128" stroke="#F09595" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+<text x="352" y="116" font-size="11" fill="#F09595">没有</text>
+<g class="node c-red">
+<rect x="250" y="132" width="180" height="56" rx="8" fill="#501313" stroke="#F09595" stroke-width="0.5"/>
+<text class="th" x="340" y="152" text-anchor="middle" dominant-baseline="central" fill="#F7C1C1" font-size="12">直接看题解，看懂思路</text>
+<text class="ts" x="340" y="172" text-anchor="middle" dominant-baseline="central" fill="#F09595" font-size="11">不抄代码，理解套路</text>
+</g>
+<path d="M340 188 L340 218" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+<path d="M552 92 L552 230 L380 230" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+<g class="node c-gray">
+<rect x="250" y="222" width="180" height="56" rx="8" fill="#2C2C2A" stroke="#B4B2A9" stroke-width="0.5"/>
+<text class="th" x="340" y="242" text-anchor="middle" dominant-baseline="central" fill="#F1EFE8" font-size="12">合上书，独立默写</text>
+<text class="ts" x="340" y="262" text-anchor="middle" dominant-baseline="central" fill="#B4B2A9" font-size="11">写不出来=没学会</text>
+</g>
+<path d="M340 278 L340 308" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)" fill="none"/>
+<g class="node c-blue">
+<rect x="250" y="312" width="180" height="56" rx="8" fill="#042C53" stroke="#85B7EB" stroke-width="0.5"/>
+<text class="th" x="340" y="332" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4" font-size="12">隔 3 天、7 天重做</text>
+<text class="ts" x="340" y="352" text-anchor="middle" dominant-baseline="central" fill="#85B7EB" font-size="11">重做能 AC 才算真正掌握</text>
+</g>
+<text x="40" y="390" font-size="12" fill="#888780">关键认知：看懂 ≠ 会写。没思路直接看题解不丢人，丢人的是看完以为自己会了。</text>
+</svg>
