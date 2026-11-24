@@ -1,0 +1,18 @@
+# Python 虚拟环境：换一台电脑不能直接复用，不要提交
+.venv/
+venv/
+env/
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 编辑器与系统自动生成文件
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter 与测试缓存
+.ipynb_checkpoints/
+.pytest_cache/
